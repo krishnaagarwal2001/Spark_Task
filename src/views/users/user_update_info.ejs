@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="/css/layout.css">
+
+<form action="/users/update" method="POST">
+
+    <div class="faculty-login-form-div">
+        <h1 style="color:  rgb(171,112,172); margin-top: 30px;">
+            Update Info
+        </h1>
+
+         <div class="form-group row">
+            <input class="form-control row" id="inputEmail"
+            name="email" type="email" placeholder="Email" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="off" readonly value="<%= user.email %>">
+        </div>
+
+        <div class="form-group row">
+            <input class="form-control row" id="inputName"
+            name="name" type="text" placeholder="Username" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="off" required value=>
+        </div>
+
+
+        <div class="form-group row">
+            <input class="form-control" id="inputPhone"
+            name="phone" type="tel" placeholder="Phone Number" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="off" required value=>
+        </div>
+
+        <div class="form-group row">
+            <input class="form-control" id="inputCity"
+            name="city" type="text" placeholder="City" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="off" required value=>
+        </div>
+
+        <div class="form-group row">
+            <input class="form-control" name="password" type="password" id="inputPassword" placeholder="Password" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="off" required value=>
+        </div>
+
+         <div class="form-group row">
+            <input class="form-control" name="confirm_password" type="password" id="inputPassword" placeholder="Confirm Password" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="off" required value>
+        </div>
+
+        <div class="faculty-login-signin-button-div" >
+           
+                <button value="update" type="submit" style="font-size: 1.2rem;">
+                        Update
+                </button>
+           
+        </div>
+
+    </div>
+</form>

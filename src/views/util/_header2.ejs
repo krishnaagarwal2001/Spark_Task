@@ -1,0 +1,20 @@
+<% if(locals.message){ %>
+  
+  <% if(message[0]!=undefined) {%> 
+  <% if(locals.message[0].includes('Error')) { %>
+      <div style="background-color: rgb(214, 72, 16); color: white">
+        <%= message %>
+      </div>
+  <% } else { %>
+        <div style="background-color: rgb(51, 230, 45); color: white">
+          <%= message %>
+        </div>
+  <% } %> 
+  <% } %> 
+<% }  %> 
+
+<div class="head">
+    
+      <h1>SPARK | IIT ROORKEE</h1>
+      <h1>Welcome <%= user.name%> </h1>
+ </div>

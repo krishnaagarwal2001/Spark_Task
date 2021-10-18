@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="/css/layout.css">
+
+
+    <div class="faculty-login-form-div">
+        <h1 style="color:  rgb(171, 112, 172); margin-top: 30px;">
+                User Profile
+        </h1>
+
+        <div class="form-group row">
+            <output class="form-control row" name="email" type="email" id="inputEmail" placeholder="Email" autocapitalize="off"  autocorrect="off" spellcheck="off" required value=>
+                        <%= user.name %>
+            </output>
+        </div>
+
+        <div class="form-group row">
+            <output class="form-control row" name="email" type="email" id="inputEmail" placeholder="Email" autocapitalize="off"  autocorrect="off" spellcheck="off" required value=>
+                        <%= user.email %>
+            </output>
+        </div>
+
+        <div class="form-group row">
+            <output class="form-control row" name="email" type="email" id="inputEmail" placeholder="Email" autocapitalize="off"  autocorrect="off" spellcheck="off" required value=>
+                        <%= user.phone %>
+            </output>
+        </div>
+
+        <div class="form-group row">
+            <output class="form-control row" name="email" type="email" id="inputEmail" placeholder="Email" autocapitalize="off"  autocorrect="off" spellcheck="off" required value=>
+                        <%= user.city %>
+            </output>
+        </div>
+
+        
+
+        <div class="faculty-login-forgot-password">
+            
+             <a style="color: rgb(171,112,172);
+             cursor: pointer;" href="/users/user_update_info">Update User Info
+             </a>
+        </div>
+        
+        <div class="faculty-login-signin-button-div">
+            <!-- <a href="/users/signup"> -->
+                <button >
+                    <a href="/users/signout" style="color: white; text-decoration: unset; font-size: 1.2rem;">
+                        Log Out
+                    </a>
+                </button>
+            <!-- </a> -->
+        </div>
+
+    </div>
+

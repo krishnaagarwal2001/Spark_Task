@@ -1,0 +1,42 @@
+
+<form action="/users/create-session" method="POST">
+    
+    <div class="faculty-login-form-div">
+        <h1 style="color:  rgb(171,112,172); margin-top: 120px;">
+            Login
+        </h1>
+        <div class="form-group row">
+            <input class="form-control" name="email" type="email" id="inputEmail" placeholder="Email" autocapitalize="off"  autocorrect="off" spellcheck="off" required value=>
+        </div>
+        <div class="form-group row">
+            <input class="form-control" name="password" type="password" id="inputPassword" placeholder="Password" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="off" required value=>
+        </div>
+        <div class="faculty-login-signin-button-div">
+            <button type="submit" value="Login">Login</button>
+        </div>
+
+        
+
+         <div class="password">
+            <div class="faculty-login-forgot-password">New User?</div>
+
+        <div class="faculty-login-forgot-password">
+            
+             <a style="color: rgb(171,112,172);
+             cursor: pointer;" href="/users/signup">SignUp</a>
+        </div>
+        </div>
+
+        <div class="password">
+            <div class="faculty-login-forgot-password">Forgot Password?</div>
+
+        <div class="faculty-login-forgot-password">
+            
+             <a style="color: rgb(171,112,172);
+             cursor: pointer;" href="/users/reset">Reset here
+             </a>
+        </div>
+        </div>
+    </div>
+
+</form>

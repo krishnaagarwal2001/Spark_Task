@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="/css/layout.css">
+
+<form action="/users/create" method="POST">
+
+    <div class="faculty-login-form-div">
+        <h1 style="color:  rgb(171,112,172); margin-top: 150px;">
+            Sign Up
+        </h1>
+
+    
+        <div class="form-group row">
+            <input class="form-control" id="inputName"
+            name="name" type="text" placeholder="Username" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="off" required value=>
+        </div>
+
+        <div class="form-group row">
+            <input class="form-control" name="email" type="email" id="inputEmail" autocomplete="off" placeholder="Email" autocapitalize="off"  autocorrect="off" spellcheck="off" required value=>
+        </div>
+
+        <div class="form-group row">
+            <input class="form-control" id="inputPhone"
+            name="phone" type="tel" placeholder="Phone Number" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="off" required value=>
+        </div>
+
+        <div class="form-group row">
+            <input class="form-control" id="inputCity"
+            name="city" type="text" placeholder="City" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="off" required value=>
+        </div>
+
+        <div class="form-group row">
+            <input class="form-control" name="password" type="password" id="inputPassword" placeholder="Password" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="off" required value=>
+        </div>
+
+         <div class="form-group row">
+            <input class="form-control" name="confirm_password" type="password" id="inputPassword" placeholder="Confirm Password" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="off" required value>
+        </div>
+
+        <div class="faculty-login-signin-button-div" >
+           
+                <button value="Signup" type="submit">
+                        Create New Account
+                </button>
+           
+        </div>
+
+    </div>
+</form>
