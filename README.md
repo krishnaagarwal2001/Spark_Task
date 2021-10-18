@@ -42,12 +42,6 @@ Now you can send messages from client to server
 
 ### Working Preview
 
-***TCP***
-![TCP](https://user-images.githubusercontent.com/63241474/109414703-41e09200-79da-11eb-9c31-a3ce8dbc9cba.png)
-
-***UDP***
-![UDP](https://user-images.githubusercontent.com/63241474/109414741-81a77980-79da-11eb-968c-e4d6d85f68a0.png)
-
 
 
 
