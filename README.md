@@ -79,6 +79,7 @@ Now you can send messages from client to server
 ### Further Updates Possible
 
 Provide two step auth for OTP Confirmation using Email  
+Upload Image  
 Better Alignment of elements on the Page 
 
 
