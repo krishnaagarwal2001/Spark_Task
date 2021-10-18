@@ -76,5 +76,10 @@ Now you can send messages from client to server
 ![logout](https://user-images.githubusercontent.com/63241474/137781924-41fe94d3-f218-4564-ad8b-eddcaa70a425.jpg)
 
 
+### Further Updates Possible
+
+Provide two step auth for OTP Confirmation using Email  
+Better Alignment of elements on the Page 
+
 
 
