@@ -40,7 +40,40 @@ Now you can send messages from client to server
 **Server Side Rendering using ejs.**  
 **Authentication using passport js.**  
 
-### Working Preview
+### Pages Created
+
+**Login Page**
+![Login Page](https://user-images.githubusercontent.com/63241474/137781173-27f1ddfc-b4e5-4570-8504-2ee9fa59d67d.jpg)
+
+**Signup Page**
+![Signup Page](https://user-images.githubusercontent.com/63241474/137781277-e21dcfbe-3faf-4efd-89dc-f8d9eee60bc2.jpg)
+
+**User Profile Page**
+![User Profile](https://user-images.githubusercontent.com/63241474/137781353-3fa898e4-322b-4306-8aaf-a0d8cdf71894.jpg)
+
+**Update Info Page**
+![Update Info](https://user-images.githubusercontent.com/63241474/137781407-70788b52-0688-40d2-a569-9cac47018b29.jpg)
+
+**Forget Password**
+![Forget Password](https://user-images.githubusercontent.com/63241474/137781431-13ac9adc-bd64-4a5a-b0f4-c18b7ac52b63.jpg)
+
+
+### Some Flashes
+
+***User does not exist (login Page)***
+![User does not exist error](https://user-images.githubusercontent.com/63241474/137781592-c755cbda-beca-4e62-8ef1-815bbc804bba.jpg)
+
+***Invalid Password (Login Page)***
+![Invalid Password error](https://user-images.githubusercontent.com/63241474/137781639-8c8adfca-9adc-4920-a60f-d3b1bc33491d.jpg)
+
+***Password and Confirm Password does not match (Signup Page)***
+![Password Confirm Password Error](https://user-images.githubusercontent.com/63241474/137781803-0927e63e-42b2-4232-a707-10abc21a054f.jpg)
+
+***Account Created***
+![Account Created](https://user-images.githubusercontent.com/63241474/137781882-6e4bbd53-bba8-4adc-9df5-78d1dc3101e8.jpg)
+
+***Logout***
+![logout](https://user-images.githubusercontent.com/63241474/137781924-41fe94d3-f218-4564-ad8b-eddcaa70a425.jpg)
 
 
 
