@@ -46,13 +46,13 @@ Now you can send messages from client to server
 ![Login Page](https://user-images.githubusercontent.com/63241474/137781173-27f1ddfc-b4e5-4570-8504-2ee9fa59d67d.jpg)
 
 **Signup Page**
-![Signup Page](https://user-images.githubusercontent.com/63241474/137781277-e21dcfbe-3faf-4efd-89dc-f8d9eee60bc2.jpg)
+![Signup](https://user-images.githubusercontent.com/63241474/137782329-7a6b6eff-1af3-4bbd-a632-a6a6eb196242.jpg)
 
 **User Profile Page**
 ![User Profile](https://user-images.githubusercontent.com/63241474/137781353-3fa898e4-322b-4306-8aaf-a0d8cdf71894.jpg)
 
 **Update Info Page**
-![Update Info](https://user-images.githubusercontent.com/63241474/137781407-70788b52-0688-40d2-a569-9cac47018b29.jpg)
+![Update Info Page](https://user-images.githubusercontent.com/63241474/137782504-7d9ebbc0-46ec-4b17-85cb-47bc201a6d05.jpg)
 
 **Forget Password**
 ![Forget Password](https://user-images.githubusercontent.com/63241474/137781431-13ac9adc-bd64-4a5a-b0f4-c18b7ac52b63.jpg)
